@@ -5,6 +5,6 @@
 2. Add your exceptions to this list @user_id IN ('jirasupport'), separated by commas
 3. Replace src="https://domain.com/logo.png" to your corporate logo URL
 4. Replace @profile_name = 'user_not'; to your profile name in MSSQL
-5. Replace security@domain.com to your admininstrator or security department email
+5. Replace security@domain.com to user, your admininstrator or security department email
 
 The field badPwdCount is not replicated between domain controllers, so data must be taken from all controllers separately
