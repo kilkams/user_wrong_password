@@ -53,7 +53,7 @@ WHILE @@FETCH_STATUS = 0
 
 BEGIN
 
-		IF LEN(@email_address) = 0 OR @user_id IN ('jirasupport','Trainee')
+		IF LEN(@email_address) = 0 OR @user_id IN ('jirasupport')
 			BEGIN
 				SET @email_address = 'security@domain.com'
 			END
