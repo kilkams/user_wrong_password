@@ -1,4 +1,4 @@
-# user_wrong_password
+# user_wrong_password fo MSSQL Job
 
 0. You need to add the linked server ADSI to the root of the forest 
 1. Replace LDAP://controller-01.domain.corp and LDAP://controller-02.domain.corp to your FQDN name.
